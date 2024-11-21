@@ -25,8 +25,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: withOpacity("--color-primary"),
-        secondary: withOpacity("--color-secondary"),
+        primary: withOpacity('--color-primary'),
+        secondary: withOpacity('--color-secondary'),
       },
       fontSize: {
         '4.5xl': ['2.6rem', '2.8rem'],

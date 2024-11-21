@@ -83,7 +83,7 @@ export function loadHomePage() {
 export function loadMoreProjects() {
   return loadQuery<HomePagePayload | null>(
     moreProjectsQuery,
-    { },
+    {},
     { next: { tags: ['home', 'project'] } },
   )
 }
@@ -111,11 +111,3 @@ export function loadProject(slug: string) {
     { next: { tags: [`project:${slug}`] } },
   )
 }
-
-// export function loadMoreProjects() {
-//   return loadQuery<ProjectPayload | null>(
-//     moreProjectsQuery,
-//     {},
-//     { next: { tags: [`project`] } },
-//   )
-// }
