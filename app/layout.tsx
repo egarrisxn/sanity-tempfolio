@@ -15,7 +15,7 @@ export default async function RootLayout({
   return (
     <html
       lang="en"
-      // Assign custom color css variables for Tailwind to use as Tailwind variables
+      //! Assign custom color css variables for Tailwind to use as Tailwind variables
       style={{
         ['--color-primary' as any]: rgbaBgColor,
         ['--color-secondary' as any]: rgbaTextColor,
